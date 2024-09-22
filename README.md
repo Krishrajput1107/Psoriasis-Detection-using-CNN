@@ -1,0 +1,1 @@
+# Psoriasis-Detection-using-CNN
