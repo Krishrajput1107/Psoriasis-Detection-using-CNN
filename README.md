@@ -1,7 +1,6 @@
 # Psoriasis-Detection-using-CNN
 
 #Overview
-
 This project utilizes a Convolutional Neural Network (CNN) based on ResNet50 to classify skin lesion images and detect psoriasis, aiding early diagnosis.
 
 #Dataset
