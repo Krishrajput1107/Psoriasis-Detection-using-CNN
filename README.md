@@ -1,27 +1,24 @@
-# Psoriasis-Detection-using-CNN
+#Psoriasis Detection Using CNN
 
-#Overview 
-This project utilizes a Convolutional Neural Network (CNN) based on ResNet50 to classify skin lesion images and detect psoriasis, aiding early diagnosis.
+Overview:-
+Built a CNN model using ResNet50 to detect psoriasis from skin lesion images.
+Aimed to assist dermatologists with early and accurate diagnosis.
 
-#Dataset
+Dataset:-
+Source: Kaggle – Skin Conditions Classification Dataset.
+Images resized to 224x224 pixels.
+Split: Train (70%), Validation (20%), Test (10%).
+Preprocessing: Normalization and data augmentation (rotation, flipping, zoom).
 
-Source: Kaggle – Skin Conditions Classification Dataset
-Details: Images resized to 224x224, split into train (70%), validation (20%), and test (10%) sets.
-Preprocessing: Applied normalization and data augmentation (rotation, flipping, zoom).
+Model Details:-
+Base Model: Pre-trained ResNet50.
+Optimizer: Adam | Loss Function: Categorical Crossentropy.
+Accuracy: Achieved 66.34% validation accuracy.
 
-#Model
+Challenges:-
+Imbalanced Dataset: Addressed with oversampling and augmentation.
+Overfitting: Resolved using dropout layers and regularization.
 
-Base Architecture: Pre-trained ResNet50 with custom fully connected layers.
-Optimizer: Adam, Loss Function: Categorical Crossentropy
-Validation Accuracy: Achieved 66.34%.
-
-#Challenges
-
-Imbalanced dataset resolved through oversampling and augmentation.
-Overfitting mitigated using dropout layers and regularization.
-
-#Future Enhancements
-
-Use a larger and more balanced dataset.
-Experiment with advanced architectures like EfficientNet.
-Deploy as a web app using Streamlit.
+Future Enhancements:-
+Use a larger dataset for better accuracy.
+Deploy the model as a web app using Streamlit.
