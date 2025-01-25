@@ -6,6 +6,7 @@ Aimed to assist dermatologists with early and accurate diagnosis.
 
 Dataset:-
 Source: Kaggle – Skin Conditions Classification Dataset.
+
 Images resized to 224x224 pixels.
 Split: Train (70%), Validation (20%), Test (10%).
 Preprocessing: Normalization and data augmentation (rotation, flipping, zoom).
